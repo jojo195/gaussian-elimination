@@ -8,8 +8,8 @@
 #endif
 #define MATERIALIZE 0
 using namespace std;
-int n = 1024;
-const int N = 1024;
+#define N 1024
+int n = N;
 double A[N][N];
 double answer[N][N];
 pthread_barrier_t barrier1, barrier2;
