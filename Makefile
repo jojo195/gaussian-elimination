@@ -13,5 +13,5 @@ all : ${HOST_TARGET}
 ${HOST_TARGET} : ${HOST_SOURCES}
 	g++ -o $@ ${HOST_SOURCES} ${HOST_FLAGS}
 
-clean : ${HOST_TARGET}
-	rm -rf $^
+clean :
+	rm -rf ${HOST_TARGET}
